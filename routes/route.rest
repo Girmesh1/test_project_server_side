@@ -1,0 +1,23 @@
+GET http://localhost:3000/songs/songs
+
+###
+POST http://localhost:3000/songs
+Content-Type: application/json 
+
+{
+    "title":"aleme ",
+    "artist":"aster",
+    "album":"checheho",
+    "genre":"hip pop"
+}
+###
+DELETE  http://localhost:3000/songs/64083a35fb9294add088c096
+
+
+
+###
+GET http://localhost:3000/songs/64083a35fb9294add088c096
+
+###
+GET http://localhost:3000/songs/statistics
+
